@@ -7,9 +7,9 @@ type Props = {
 
 const AsideItem = ({ icon, text }: Props) => {
   return (
-    <div className="flex items-baseline gap-2">
+    <div className="flex items-center gap-2 mt-1">
       <span>{icon}</span>
-      <p className="text-white">{text}</p>
+      <p className="text-white text-sm">{text}</p>
     </div>
   );
 };

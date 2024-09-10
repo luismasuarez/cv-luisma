@@ -37,7 +37,7 @@ function App() {
                   icon={<FaUniversity color="#fff" />}
                 />
 
-                <p className="text-slate-300 text-center mt-4">
+                <p className="text-slate-300 text-center mt-8">
                   {INFO.education.career}
                 </p>
               </AsideSection>
