@@ -2,16 +2,16 @@ import { ReactNode } from "react";
 
 type Props = {
   text: string;
-  icon: ReactNode;
+  icon?: ReactNode;
 };
 
-const ContactItem = ({ icon, text }: Props) => {
+const AsideItem = ({ icon, text }: Props) => {
   return (
-    <div className="flex items-center gap-2">
-      {icon}
+    <div className="flex items-baseline gap-2">
+      <span>{icon}</span>
       <p className="text-white">{text}</p>
     </div>
   );
 };
 
-export default ContactItem;
+export default AsideItem;
