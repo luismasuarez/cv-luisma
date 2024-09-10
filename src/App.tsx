@@ -1,9 +1,11 @@
 import { FaUniversity } from "react-icons/fa";
+import { IoLanguage } from "react-icons/io5";
 import INFO from "./assets/cv.json";
 import AsideSection from "./components/AsideSection";
 import Contact from "./components/Contact";
 import AsideItem from "./components/ContactItem";
 import ProfileImage from "./components/ProfileImage";
+import ProfileInfo from "./components/ProfileInfo";
 import Tecnologies from "./components/Tecnologies";
 import Aside from "./layouts/Aside";
 import Main from "./layouts/Main";
@@ -15,20 +17,18 @@ function App() {
         <div className="flex h-full rounded-md overflow-hidden">
           <Aside>
             <ProfileImage />
-            <div>
-              <h1 className="text-xl font-bold text-white mt-2">
-                Luis Manuel Causa Suárez
-              </h1>
-
-              <h2 className="font-semibold text-slate-300">Web Developer</h2>
-            </div>
+            <ProfileInfo name="Luis Manuel Causa Suárez" work="Web Developer" />
 
             <div className="w-full flex flex-col justify-start items-start px-4">
               <Contact />
+
               <Tecnologies />
 
               <AsideSection title="Idiomas">
-                <AsideItem text={INFO.languages.english} />
+                <AsideItem
+                  text={INFO.languages.english}
+                  icon={<IoLanguage color="#fff" />}
+                />
               </AsideSection>
 
               <AsideSection title="Educación">
