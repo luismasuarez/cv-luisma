@@ -13,7 +13,7 @@ import Main from "./layouts/Main";
 function App() {
   return (
     <div className="flex justify-center items-center p-10">
-      <div className="w-[816px] h-[1056px]">
+      <div className="w-[816px] h-[1056px] shadow-xl">
         <div className="flex h-full rounded-md overflow-hidden">
           <Aside>
             <ProfileImage />

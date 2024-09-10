@@ -5,19 +5,6 @@
   "email": "luisma.suarezzz@gmail.com",
   "linkedin": "linkedin.com/in/luisma-suarez/",
   "location": "La Habana, Cuba",
-  "technologies": {
-    "react": "React",
-    "react_native": "React",
-    "react_hook_form": "React",
-    "zod": "React",
-    "mui": "React",
-    "tailwindcss": "React",
-    "shadcn": "React",
-    "cypress": "React",
-    "aws": "React",
-    "node": "React",
-    "express": "React"
-  },
   "languages": {
     "english": "Ingles Medio Avanzado"
   },
