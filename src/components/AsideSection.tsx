@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 type Props = {
   title: string;
   children?: ReactNode | ReactNode[];
+  props?: HTMLParagraphElement;
 };
 
 const AsideSection = ({ title, children }: Props) => {

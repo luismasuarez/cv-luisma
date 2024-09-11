@@ -5,10 +5,11 @@ import info from "../assets/cv.json";
 import AsideItem from "./ContactItem";
 import SectionTitle from "./SectionTitle";
 
-const Contact = () => {
+const ContactSection = () => {
   return (
     <div className="mt-4 self-start">
       <SectionTitle title="Contacto" />
+
       <div className="flex flex-col gap-2 mt-2">
         <AsideItem
           text={info.phone}
@@ -31,4 +32,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactSection;

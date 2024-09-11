@@ -2,11 +2,11 @@ import { FaUniversity } from "react-icons/fa";
 import { IoLanguage } from "react-icons/io5";
 import INFO from "./assets/cv.json";
 import AsideSection from "./components/AsideSection";
-import Contact from "./components/Contact";
 import AsideItem from "./components/ContactItem";
+import ContactSection from "./components/ContactSection";
 import ProfileImage from "./components/ProfileImage";
 import ProfileInfo from "./components/ProfileInfo";
-import Tecnologies from "./components/Tecnologies";
+import TechSection from "./components/TechSection";
 import Aside from "./layouts/Aside";
 import Main from "./layouts/Main";
 
@@ -20,9 +20,9 @@ function App() {
             <ProfileInfo name="Luis Manuel Causa Suárez" work="Web Developer" />
 
             <div className="w-full flex flex-col justify-start items-start px-4">
-              <Contact />
+              <ContactSection />
 
-              <Tecnologies />
+              <TechSection />
 
               <AsideSection title="Idiomas">
                 <AsideItem
@@ -45,13 +45,14 @@ function App() {
           </Aside>
 
           <Main>
-            <div>
-              <h3 className="font-semibold text-slate-800">Soft Skills</h3>
-            </div>
+            <h3 className="font-semibold text-slate-800">Acerca de mi</h3>
+            <h3 className="font-semibold text-slate-800">
+              Habilidades blandas
+            </h3>
 
-            <div>
-              <h3 className="font-semibold text-slate-800">Work Experience</h3>
-            </div>
+            <h3 className="font-semibold text-slate-800">
+              Experiencia laboral
+            </h3>
           </Main>
         </div>
       </div>

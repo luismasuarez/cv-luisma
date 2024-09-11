@@ -13,7 +13,7 @@ import {
 import AsideSection from "./AsideSection";
 import AsideItem from "./ContactItem";
 
-const Tecnologies = () => {
+const TechSection = () => {
   return (
     <AsideSection title="Tecnologías">
       <AsideItem text="React" icon={<SiReact color="#fff" />} />
@@ -34,4 +34,4 @@ const Tecnologies = () => {
   );
 };
 
-export default Tecnologies;
+export default TechSection;
