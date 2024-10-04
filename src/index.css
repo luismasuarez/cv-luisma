@@ -6,3 +6,14 @@
   font-family: "Poppins";
   src: url("./assets/Poppins-Regular.ttf");
 }
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  div {
+    margin: 0;
+    padding: 0;
+  }
+}

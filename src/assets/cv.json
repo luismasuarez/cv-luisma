@@ -1,15 +1,65 @@
 {
   "name": "Luis Manuel Causa Suárez",
   "specialty": "Web Developer",
-  "phone": "+53 5510 3839",
-  "email": "luisma.suarezzz@gmail.com",
-  "linkedin": "linkedin.com/in/luisma-suarez/",
-  "location": "La Habana, Cuba",
+  "contact": {
+    "phone": {
+      "name": "+53 5510 3839",
+      "url": "tel:+53 5510 3839"
+    },
+    "email": {
+      "name": "luisma.suarezzz@gmail.com",
+      "url": "mailto:luisma.suarezzz@gmail.com"
+    },
+    "linkedin": {
+      "name": "linkedin.com/in/luisma-suarez/",
+      "url": "https://www.linkedin.com/in/luisma-suarez/"
+    },
+    "location": {
+      "name": "La Habana, Cuba",
+      "url": "https://www.google.com/maps/place/La+Habana,+Cuba/@23.1333195,-82.3646568,17z/data=!3m1!4b1!4m5!3m4!1s0x8e5b0a0c0f3c6b5f:0x1f0b1b3f1a5c7b9!8m2!3d23.1333195!4d-82.3646568"
+    }
+  },
   "languages": {
     "english": "Ingles Medio Avanzado"
   },
   "education": {
     "university": "Universidad Tecnológica de La Habana ( José Antonio Echeverria ), CUJAE",
     "career": "Ingeniero en Telecomunicaciones y Electrónica"
-  }
+  },
+  "about": "Hola, soy Luis Manuel Causa Suárez, más de 2 años de experiencia en proyectos que abarcan la salud, la educación, el transporte, y la gestión de usuarios. He trabajado como Frontend y Backend implementando el desarrollo web usando JavaScript, HTML, y CSS con librerías como React y frameworks de React Native, entre otras tecnologías.",
+  "skills": "Soy una persona jovial y agradable, me gusta trabajar en equipo y ayudar a otros a alcanzar sus objetivos. Tengo actitud positiva y alegre que mejoren el día de mis compañeros, me gusta ayudar a agilizar todos los procesos y evitar trabas que puedan retrasar a un equipo.",
+  "experience": [
+    {
+      "position": "Frontend Developer",
+      "company": "Avangenio",
+      "time": "Jornada Completa",
+      "duration": "Sep 2023 - Ago 2024 · 1 año",
+      "location": "La Habana, Cuba",
+      "modality": "Presencial",
+      "url": "https://www.avangenio.cu",
+      "aptitudes": [
+        "Desarrollo Web Frontend",
+        "Scrum",
+        "Redmine",
+        "JavaScript",
+        "React",
+        "Git"
+      ]
+    },
+    {
+      "position": "Frontend Developer | Mobile Developer | Backend Developer",
+      "company": "Nexolife",
+      "time": "Profesional intermedio",
+      "duration": "Ene 2023 - Ago 2023 · 8 meses",
+      "location": "La Habana, Cuba",
+      "modality": "Remoto",
+      "url": "https://www.nexolife.com",
+      "aptitudes": [
+        "Desarrollo Web Frontend",
+        "Mobile Development",
+        "Backend Development",
+        "Quality Assurance"
+      ]
+    }
+  ]
 }

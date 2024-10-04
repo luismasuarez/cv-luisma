@@ -2,8 +2,10 @@ import { LiaNodeJs } from "react-icons/lia";
 import {
   SiAwsamplify,
   SiCypress,
+  SiExpo,
   SiExpress,
   SiMui,
+  SiRabbitmq,
   SiReact,
   SiReacthookform,
   SiShadcnui,
@@ -18,6 +20,7 @@ const TechSection = () => {
     <AsideSection title="Tecnologías">
       <AsideItem text="React" icon={<SiReact color="#fff" />} />
       <AsideItem text="React Native" icon={<SiReact color="#fff" />} />
+      <AsideItem text="Expo" icon={<SiExpo color="#fff" />} />
       <AsideItem
         text="React Hook Form"
         icon={<SiReacthookform color="#fff" />}
@@ -30,6 +33,7 @@ const TechSection = () => {
       <AsideItem text="AWS" icon={<SiAwsamplify color="#fff" />} />
       <AsideItem text="Node" icon={<LiaNodeJs color="#fff" />} />
       <AsideItem text="Express JS" icon={<SiExpress color="#fff" />} />
+      <AsideItem text="RabbitMQ" icon={<SiRabbitmq color="#fff" />} />
     </AsideSection>
   );
 };
