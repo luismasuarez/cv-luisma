@@ -6,8 +6,10 @@ import INFO from "./assets/cv.json";
 import AsideSection from "./components/AsideSection";
 import AsideItem from "./components/ContactItem";
 import ContactSection from "./components/ContactSection";
+import DownArrow from "./components/DownArrow";
 import ExperienceSection from "./components/ExperienceSection";
 import MainSection from "./components/MainSection";
+import PrintButton from "./components/PrintButton";
 import ProfileImage from "./components/ProfileImage";
 import ProfileInfo from "./components/ProfileInfo";
 import TechSection from "./components/TechSection";
@@ -22,10 +24,7 @@ function App() {
   });
 
   return (
-    <div className="flex justify-center items-center p-10">
-      {/* Botón para exportar a PDF */}
-      <button onClick={reactToPrintFn}>Print</button>
-
+    <div className="flex flex-col justify-center items-center p-10">
       <div className="w-[794px] h-[1123px] shadow-xl" ref={componentRef}>
         <div className="flex h-full rounded-md overflow-hidden">
           <Aside>
@@ -50,9 +49,11 @@ function App() {
                   icon={<FaUniversity color="#fff" />}
                 />
 
-                <p className="text-slate-300 text-center mt-4">
-                  {INFO.education.career}
-                </p>
+                <div className="flex justify-center items-center border-t border-slate-300 mt-4">
+                  <p className="text-slate-300 text-center mt-10">
+                    {INFO.education.career}
+                  </p>
+                </div>
               </AsideSection>
             </div>
           </Aside>
@@ -71,6 +72,9 @@ function App() {
           </Main>
         </div>
       </div>
+
+      <PrintButton reactToPrintFn={reactToPrintFn} />
+      <DownArrow />
     </div>
   );
 }
