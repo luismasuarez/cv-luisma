@@ -6,7 +6,7 @@ const EditButton = ({ setShowForm }: Props) => {
   return (
     <button
       onClick={() => setShowForm(true)}
-      className="mb-4 py-2 px-6 rounded-md bg-green-500 text-white font-bold hover:bg-green-600 transition duration-200"
+      className="py-2 px-6 rounded-md bg-indigo-500 text-white font-bold hover:bg-indigo-600 transition duration-200"
     >
       Editar CV
     </button>
